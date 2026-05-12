@@ -1,0 +1,277 @@
+- generic:
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - link:
+                  - /url: /tasks
+                  - img
+                  - generic: Tasks
+                - generic:
+                  - link:
+                    - /url: /qa-feedback
+                    - img
+                    - generic: QA Feedback
+              - generic:
+                - button:
+                  - img
+                  - generic: Settings
+                  - generic:
+                    - img
+            - generic:
+              - button:
+                - img
+                - generic: Settings
+              - generic:
+                - generic: Language
+                - generic:
+                  - combobox:
+                    - generic: English
+                    - img
+              - generic:
+                - generic: Resources
+                - generic:
+                  - link:
+                    - /url: /terms
+                    - img
+                    - generic: Terms of Use
+                  - link:
+                    - /url: /privacy-policy
+                    - img
+                    - generic: Privacy Policy
+              - generic:
+                - generic: Account
+                - generic:
+                  - button:
+                    - img
+                    - generic: Account Settings
+                  - button:
+                    - img
+                    - generic: Log Out
+          - button
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - heading [level=1]: Claw Onboarding
+            - generic:
+              - button [active]:
+                - img
+                - text: Guidelines
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - heading [level=1]: OpenClaw Onboarding
+                      - paragraph: Set up your environment and connect your apps
+                  - generic:
+                    - generic:
+                      - button:
+                        - generic:
+                          - img
+                        - generic: VM Setup
+                      - button:
+                        - generic:
+                          - img
+                        - generic: OpenClaw URL
+                      - button:
+                        - generic:
+                          - img
+                        - generic: Telegram
+                      - generic:
+                        - generic:
+                          - img
+                        - generic: Services
+                    - generic:
+                      - button:
+                        - generic:
+                          - generic: "5"
+                        - generic: Use OpenClaw
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                      - text: Connect Third-Party Services
+                    - generic: Connect a few services from ClawHub to your OpenClaw instance (e.g., calendar, email, health trackers).
+                  - generic:
+                    - generic:
+                      - paragraph: "How to connect:"
+                      - list:
+                        - listitem: Browse available connectors on ClawHub (link below)
+                        - listitem: Choose a few services to connect (e.g., calendar, readonly email, health trackers, Slack, etc.)
+                        - listitem: Open your OpenClaw instance and go to ClawHub > Connectors
+                        - listitem: Follow the setup flow for each connector
+                        - listitem: Come back here — we'll detect it automatically
+                    - generic:
+                      - button:
+                        - img
+                        - text: Browse ClawHub
+                      - button:
+                        - img
+                        - text: Open OpenClaw
+                    - generic:
+                      - checkbox
+                      - text: I've connected a new connector/skill
+                    - generic:
+                      - text: Which skills/connectors did you set up?
+                      - textbox:
+                        - /placeholder: e.g., Google Calendar, Gmail, Fitbit...
+                      - paragraph: Separate multiple connectors with commas
+                    - generic:
+                      - button:
+                        - img
+                        - text: Back
+                      - button [disabled]: Complete Onboarding
+  - list
+  - alert
+  - dialog "Task Guidelines" [ref=e126]:
+    - generic [ref=e127]:
+      - heading "Task Guidelines" [level=2] [ref=e130]
+      - paragraph [ref=e131]: You've already watched this tutorial, but feel free to review it again.
+      - paragraph [ref=e132]: Read the guidelines below before proceeding with the task.
+    - generic [ref=e136]:
+      - heading "OpenClaw Onboarding" [level=2] [ref=e137]
+      - paragraph [ref=e138]: Congratulations on making it to this project. This is an amazing opportunity to learn by living it.
+      - paragraph [ref=e139]:
+        - text: For the next few weeks to months, you'll get a personal, fully-powered OpenClaw to set up exactly how
+        - emphasis [ref=e140]: you
+        - text: want it. You'll use it daily to build real life skills i.e. managing time, money, health, learning, relationships while getting first-hand experience building and teaching agents.
+      - paragraph [ref=e141]: The intent of this project is to have you build a better personal operating system for yourself with a powerful AI system. As you do this, you can mark thumbs up / thumbs down on its responses which is feedback we’ll use to make the model smarter and better at the complex tasks you ask for.
+      - paragraph [ref=e142]: "OpenClaw is a much more powerful AI system than any normal chatbot on the web. It has:"
+      - list [ref=e143]:
+        - listitem [ref=e144]: A single conversation thread that goes on forever so it can truly remember what you say
+        - listitem [ref=e145]: A personal computer its running on in the cloud that gives it the power to download files, access websites, and run apps to help you achieve your goals
+        - listitem [ref=e146]: The ability to learn from what you tell it
+        - listitem [ref=e147]: The ability to be proactive and always on, even when you’re not talking to it
+      - paragraph [ref=e148]: So be ambitious, be bold, and teach your OpenClaw everything you can to make it great for you.
+      - heading "Having Builder Perspective" [level=3] [ref=e149]:
+        - strong [ref=e150]: Having Builder Perspective
+      - list [ref=e151]:
+        - listitem [ref=e152]: You are an early builder
+        - listitem [ref=e153]: You control what you share, use real info only to the extent you are comfortable
+        - listitem [ref=e154]: The more real your use is, the more you learn (and the better your agent gets at helping you)
+      - heading "Goal" [level=2] [ref=e155]:
+        - strong [ref=e156]: Goal
+      - paragraph [ref=e157]: Build realistic, personalized environments for real usage of OpenClaw over weeks to months, reflecting genuine OpenClaw usage and interaction histories.
+      - heading "What You'll Get" [level=2] [ref=e158]:
+        - strong [ref=e159]: What You'll Get
+      - list [ref=e160]:
+        - listitem [ref=e161]: Your own hosted vanilla installation of OpenClaw
+        - listitem [ref=e162]: A private personal URL, bookmark it, keep it to yourself
+        - listitem [ref=e163]: Nearly unlimited usage so you can experiment freely
+      - heading "Step 1 - Make It Truly Yours" [level=2] [ref=e164]:
+        - strong [ref=e165]: Step 1 - Make It Truly Yours
+      - paragraph [ref=e166]:
+        - text: Set up OpenClaw like
+        - emphasis [ref=e167]: your
+        - text: assistant, not a work tool.
+      - list [ref=e168]:
+        - listitem [ref=e169]:
+          - text: "Add what you are comfortable sharing to make it useful:"
+          - list [ref=e170]:
+            - listitem [ref=e171]: Your profession, routines, and current goals
+            - listitem [ref=e172]: The tasks you actually juggle
+        - listitem [ref=e173]: Connections to apps you already use
+        - listitem [ref=e174]: You decide the boundary. Real info makes the skill-building real but comfort comes first.
+      - heading "Step 2 - Onboarding (Your First Build Session)" [level=2] [ref=e175]:
+        - strong [ref=e176]: Step 2 - Onboarding (Your First Build Session)
+      - list [ref=e177]:
+        - listitem [ref=e178]:
+          - text: Go mobile. Install Telegram on your phone and connect it to OpenClaw using the normal OpenClaw guide for Telegram.
+          - strong [ref=e179]: Please do not connect Whatsapp or any other social media apps
+          - text: .
+        - listitem [ref=e180]: Plug in your world. Connect 2–3 services with standard OpenClaw connectors (calendar, read-only email, health tracker, etc.).
+        - listitem [ref=e181]: Get inspired. Spend 10 minutes on ClawHub (clawhub.ai) to see what other builders are teaching their agents to do.
+      - heading "Step 3 - This Is Where You Learn" [level=2] [ref=e182]:
+        - strong [ref=e183]: Step 3 - This Is Where You Learn
+      - list [ref=e184]:
+        - listitem [ref=e185]: "Use OpenClaw as your primary personal chatbot/agent:"
+        - listitem [ref=e186]: On the web via your private URL
+        - listitem [ref=e187]:
+          - text: Install Telegram on their phone and connect it to OpenClaw using the
+          - link "normal OpenClaw guide for Telegram" [ref=e188] [cursor=pointer]:
+            - /url: https://docs.openclaw.ai/channels/telegram
+          - text: . This will let you ask it for help on the go. It’ll remember everything across all devices.
+          - text: "*Connect to a few third party services using standard openclaw connectors (eg calendar, readonly email, health trackers, etc.)"
+      - paragraph [ref=e189]: Use it for quick questions, deep planning, reminders, coaching.
+      - paragraph [ref=e190]:
+        - emphasis [ref=e191]:
+          - strong [ref=e192]: "Important: Don't use OpenClaw to do your annotation work. This time is for building your life skills."
+      - generic [ref=e193]:
+        - text: We’ll give you starter prompts, but the magic happens when you go beyond them and solve your own problems.
+        - text: You could also explore
+        - link "https://clawhub.ai/" [ref=e194] [cursor=pointer]:
+          - /url: https://clawhub.ai/
+        - text: to get inspiration for what they can teach their Claw to do
+      - heading [level=2]
+      - heading "Step 4 - Teach Us What You Built (in MultiMango)" [level=2] [ref=e195]:
+        - strong [ref=e196]: Step 4 - Teach Us What You Built (in MultiMango)
+      - list [ref=e197]:
+        - listitem [ref=e198]: Each day, open MultiMango. Your OpenClaw chats are imported automatically.
+        - listitem [ref=e199]: Just mark the start and end of each new task — this shows us how people naturally break down work with agents.
+        - listitem [ref=e200]:
+          - text: "Example:"
+          - list [ref=e201]:
+            - listitem [ref=e202]: "START: \"Coach my workouts — check my weigh-in logs and nudge me if I miss the gym\" → END"
+            - listitem [ref=e203]: "START: \"Summarize my meeting notes and turn them into action items\" → END"
+            - listitem [ref=e204]: "START: \"Help me manage my iMessage / WhatsApp by reminding me who I forgot to reply to\" → END"
+      - heading "What Great Skill-Building Looks Like" [level=2] [ref=e205]:
+        - strong [ref=e206]: What Great Skill-Building Looks Like
+      - paragraph [ref=e207]: "Aim for wide coverage, try all five areas over time:"
+      - table [ref=e208]:
+        - rowgroup [ref=e209]:
+          - row "Domain Life Skill You are Building Real World Examples" [ref=e210]:
+            - columnheader "Domain" [ref=e211]
+            - columnheader "Life Skill You are Building" [ref=e212]
+            - columnheader "Real World Examples" [ref=e213]
+        - rowgroup [ref=e214]:
+          - row "Health Fitness, nutrition, sleep, mental wellness Help me get fit with workout/meal plans on a budget Check my sleep data and suggest a better wind-down" [ref=e215]:
+            - cell "Health" [ref=e216]
+            - cell "Fitness, nutrition, sleep, mental wellness" [ref=e217]
+            - cell "Help me get fit with workout/meal plans on a budget Check my sleep data and suggest a better wind-down" [ref=e218]:
+              - list [ref=e219]:
+                - listitem [ref=e220]: Help me get fit with workout/meal plans on a budget
+                - listitem [ref=e221]: Check my sleep data and suggest a better wind-down
+          - row "Exploration Learning, creativity, hobbies Quiz me to help me study for this exam Give me 3 dinner ideas for friends using what I have Accelerate my side hustle with a content plan" [ref=e222]:
+            - cell "Exploration" [ref=e223]
+            - cell "Learning, creativity, hobbies" [ref=e224]
+            - cell "Quiz me to help me study for this exam Give me 3 dinner ideas for friends using what I have Accelerate my side hustle with a content plan" [ref=e225]:
+              - list [ref=e226]:
+                - listitem [ref=e227]: Quiz me to help me study for this exam
+                - listitem [ref=e228]: Give me 3 dinner ideas for friends using what I have
+                - listitem [ref=e229]: Accelerate my side hustle with a content plan
+          - row "Advice Money, career, decisions Is this $200 splurge okay for my budget? Help me pick a credit card for my spending Shop for me add these to my Instacart / Amazon cart Find discounts or alert me when the sale starts" [ref=e230]:
+            - cell "Advice" [ref=e231]
+            - cell "Money, career, decisions" [ref=e232]
+            - cell "Is this $200 splurge okay for my budget? Help me pick a credit card for my spending Shop for me add these to my Instacart / Amazon cart Find discounts or alert me when the sale starts" [ref=e233]:
+              - list [ref=e234]:
+                - listitem [ref=e235]: Is this $200 splurge okay for my budget?
+                - listitem [ref=e236]: Help me pick a credit card for my spending
+                - listitem [ref=e237]: Shop for me add these to my Instacart / Amazon cart
+                - listitem [ref=e238]: Find discounts or alert me when the sale starts
+          - row "Relationship Family, friends, work comms Remind me to get a gift for mom's birthday next week Tell me about new shows my friends and I would like" [ref=e239]:
+            - cell "Relationship" [ref=e240]
+            - cell "Family, friends, work comms" [ref=e241]
+            - cell "Remind me to get a gift for mom's birthday next week Tell me about new shows my friends and I would like" [ref=e242]:
+              - list [ref=e243]:
+                - listitem [ref=e244]: Remind me to get a gift for mom's birthday next week
+                - listitem [ref=e245]: Tell me about new shows my friends and I would like
+          - row "Time Planning, automation, travel Set up calendar blocks for studying and gym Track my packages and remind me to pick them up Build a 3-day itinerary and help me book it Find me a cheaper, in-stock version of this product" [ref=e246]:
+            - cell "Time" [ref=e247]
+            - cell "Planning, automation, travel" [ref=e248]
+            - cell "Set up calendar blocks for studying and gym Track my packages and remind me to pick them up Build a 3-day itinerary and help me book it Find me a cheaper, in-stock version of this product" [ref=e249]:
+              - list [ref=e250]:
+                - listitem [ref=e251]: Set up calendar blocks for studying and gym
+                - listitem [ref=e252]: Track my packages and remind me to pick them up
+                - listitem [ref=e253]: Build a 3-day itinerary and help me book it
+                - listitem [ref=e254]: Find me a cheaper, in-stock version of this product
+    - button "Continue to Task" [ref=e257] [cursor=pointer]
+    - button "Close" [ref=e258] [cursor=pointer]:
+      - img [ref=e259]
+      - generic [ref=e262]: Close

@@ -1,0 +1,114 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - generic [ref=e8]:
+            - link "Tasks" [ref=e9] [cursor=pointer]:
+              - /url: /tasks
+              - img [ref=e10]
+              - generic [ref=e13]: Tasks
+            - link "QA Feedback" [ref=e15] [cursor=pointer]:
+              - /url: /qa-feedback
+              - img [ref=e16]
+              - generic [ref=e18]: QA Feedback
+          - button "Settings" [ref=e22] [cursor=pointer]:
+            - img [ref=e23]
+            - generic [ref=e26]: Settings
+            - img [ref=e28]
+        - generic:
+          - button "Settings":
+            - img
+            - generic: Settings
+          - generic:
+            - generic: Language
+            - generic:
+              - combobox:
+                - generic: English
+                - img
+          - generic:
+            - generic: Resources
+            - generic:
+              - link "Terms of Use":
+                - /url: /terms
+                - img
+                - generic: Terms of Use
+              - link "Privacy Policy":
+                - /url: /privacy-policy
+                - img
+                - generic: Privacy Policy
+          - generic:
+            - generic: Account
+            - generic:
+              - button "Account Settings":
+                - img
+                - generic: Account Settings
+              - button "Log Out":
+                - img
+                - generic: Log Out
+      - button "Toggle Sidebar" [ref=e30]
+    - generic [ref=e33]:
+      - generic [ref=e39]:
+        - heading "Claw Onboarding" [level=1] [ref=e41]
+        - button "Guidelines" [ref=e43] [cursor=pointer]:
+          - img
+          - text: Guidelines
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - generic [ref=e47]:
+            - heading "OpenClaw Onboarding" [level=1] [ref=e48]
+            - paragraph [ref=e49]: Set up your environment and connect your apps
+          - generic [ref=e50]:
+            - generic [ref=e51]:
+              - button "VM Setup" [ref=e52] [cursor=pointer]:
+                - img [ref=e54]
+                - generic [ref=e56]: VM Setup
+              - button "OpenClaw URL" [ref=e58] [cursor=pointer]:
+                - img [ref=e60]
+                - generic [ref=e62]: OpenClaw URL
+              - button "Telegram" [ref=e64] [cursor=pointer]:
+                - img [ref=e66]
+                - generic [ref=e68]: Telegram
+              - generic [ref=e91]:
+                - img [ref=e93]
+                - generic [ref=e95]: Services
+            - button "5 Use OpenClaw" [ref=e96] [cursor=pointer]:
+              - generic [ref=e98]: "5"
+              - generic [ref=e99]: Use OpenClaw
+        - generic [ref=e100]:
+          - generic [ref=e101]:
+            - generic [ref=e102]:
+              - img [ref=e103]
+              - text: Connect Third-Party Services
+            - generic [ref=e105]: Connect a few services from ClawHub to your OpenClaw instance (e.g., calendar, email, health trackers).
+          - generic [ref=e106]:
+            - generic [ref=e107]:
+              - paragraph [ref=e108]: "How to connect:"
+              - list [ref=e109]:
+                - listitem [ref=e110]: Browse available connectors on ClawHub (link below)
+                - listitem [ref=e111]: Choose a few services to connect (e.g., calendar, readonly email, health trackers, Slack, etc.)
+                - listitem [ref=e112]: Open your OpenClaw instance and go to ClawHub > Connectors
+                - listitem [ref=e113]: Follow the setup flow for each connector
+                - listitem [ref=e114]: Come back here — we'll detect it automatically
+            - generic [ref=e115]:
+              - button "Browse ClawHub" [ref=e116] [cursor=pointer]:
+                - img
+                - text: Browse ClawHub
+              - button "Open OpenClaw" [ref=e117] [cursor=pointer]:
+                - img
+                - text: Open OpenClaw
+            - generic [ref=e118] [cursor=pointer]:
+              - checkbox "I've connected a new connector/skill" [ref=e119]
+              - text: I've connected a new connector/skill
+            - generic [ref=e120]:
+              - text: Which skills/connectors did you set up?
+              - textbox "e.g., Google Calendar, Gmail, Fitbit..." [ref=e121]
+              - paragraph [ref=e122]: Separate multiple connectors with commas
+            - generic [ref=e123]:
+              - button "Back" [ref=e124] [cursor=pointer]:
+                - img
+                - text: Back
+              - button "Complete Onboarding" [disabled]
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e38]

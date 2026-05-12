@@ -1,0 +1,187 @@
+- generic [active] [ref=e1]:
+  - dialog "This website uses cookies" [ref=e2]:
+    - generic [ref=e3]:
+      - img "logo" [ref=e7]
+      - tabpanel "Consent" [ref=e9]:
+        - generic [ref=e11]:
+          - heading "This website uses cookies" [level=2] [ref=e12]
+          - paragraph [ref=e14]:
+            - text: We use essential cookies to make our website work. We also set additional cookies to improve your experience, for analytics and website performance, and for targeted advertising purposes. These additional cookies will be set only if you click ‘Accept All’. For more information about the cookies we use, or to change your preferences, please visit our
+            - link "Cookie Policy" [ref=e15] [cursor=pointer]:
+              - /url: https://www.strava.com/legal/cookie_policy
+              - generic [ref=e16]: Cookie Policy
+            - text: .
+        - link "Show details" [ref=e19] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e23]:
+        - button "Reject Non-Essential" [ref=e24] [cursor=pointer]
+        - button "Customize" [ref=e25] [cursor=pointer]: Customize
+        - button "Accept All" [ref=e27] [cursor=pointer]
+  - generic [ref=e29]:
+    - navigation [ref=e31]:
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - button "Strava" [ref=e35] [cursor=pointer]:
+            - img "Strava" [ref=e36]
+          - list [ref=e38]:
+            - listitem [ref=e39]:
+              - button "Activities" [ref=e40] [cursor=pointer]:
+                - text: Activities
+                - img [ref=e41]
+            - listitem [ref=e43]:
+              - link "Features" [ref=e44] [cursor=pointer]:
+                - /url: /features
+            - listitem [ref=e45]:
+              - link "Maps" [ref=e46] [cursor=pointer]:
+                - /url: /maps
+            - listitem [ref=e47]:
+              - link "Challenges" [ref=e48] [cursor=pointer]:
+                - /url: /challenges
+            - listitem [ref=e49]:
+              - link "Subscription" [ref=e50] [cursor=pointer]:
+                - /url: /subscribe?origin=website_header
+        - button "Join for Free" [ref=e52] [cursor=pointer]
+    - main [ref=e53]:
+      - generic [ref=e54]:
+        - generic [ref=e56]:
+          - heading "Log In" [level=1] [ref=e59]
+          - generic [ref=e60]:
+            - button "Sign In With Google" [ref=e61] [cursor=pointer]:
+              - img [ref=e62]
+              - text: Sign In With Google
+            - button "Sign In With Apple" [ref=e67] [cursor=pointer]:
+              - img [ref=e68]
+              - text: Sign In With Apple
+            - generic [ref=e72]: or
+            - generic [ref=e74]:
+              - generic [ref=e75]:
+                - generic [ref=e76]: Email
+                - textbox "Email" [ref=e77]:
+                  - /placeholder: Your Email
+              - generic:
+                - text: country
+                - textbox "country" [ref=e78]
+              - generic [ref=e80] [cursor=pointer]:
+                - generic [ref=e81]:
+                  - checkbox "Remember me" [checked]
+                  - img [ref=e82]
+                - text: Remember me
+              - button "Log In" [disabled] [ref=e84]
+            - link "Create a New Account" [ref=e86] [cursor=pointer]:
+              - /url: /register/free
+            - paragraph [ref=e87]:
+              - text: By continuing, you are agreeing to our
+              - link "Terms of Service" [ref=e88] [cursor=pointer]:
+                - /url: /legal/terms
+              - text: and
+              - link "Privacy Policy" [ref=e89] [cursor=pointer]:
+                - /url: /legal/privacy
+              - text: .
+        - iframe [ref=e92]:
+          - generic [ref=f3e6]:
+            - text: protected by
+            - strong [ref=f3e7]: reCAPTCHA
+    - contentinfo [ref=e93]:
+      - generic [ref=e94]:
+        - generic [ref=e95]:
+          - img "Strava" [ref=e96]
+          - list [ref=e98]:
+            - listitem [ref=e99]:
+              - link "Download on the App Store" [ref=e100] [cursor=pointer]:
+                - /url: https://itunes.apple.com/app/strava-cycling/id426826309?mt=8
+                - img "Download on the App Store" [ref=e102]
+            - listitem [ref=e103]:
+              - link "Get it on Google Play" [ref=e104] [cursor=pointer]:
+                - /url: https://itunes.apple.com/app/strava-cycling/id426826309?mt=8
+                - img "Get it on Google Play" [ref=e106]
+          - navigation "Social links" [ref=e107]:
+            - link "Twitter" [ref=e108] [cursor=pointer]:
+              - /url: https://twitter.com/strava
+              - img "Twitter" [ref=e109]
+            - link "YouTube" [ref=e110] [cursor=pointer]:
+              - /url: https://www.youtube.com/stravainc
+              - img "YouTube" [ref=e111]
+            - link "Instagram" [ref=e112] [cursor=pointer]:
+              - /url: https://www.instagram.com/strava/
+              - img "Instagram" [ref=e113]
+            - link "LinkedIn" [ref=e114] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/strava-inc.
+              - img "LinkedIn" [ref=e115]
+            - link "Facebook" [ref=e116] [cursor=pointer]:
+              - /url: https://www.facebook.com/Strava
+              - img "Facebook" [ref=e117]
+        - navigation "Footer links" [ref=e118]:
+          - list [ref=e119]:
+            - listitem [ref=e120]:
+              - list [ref=e121]:
+                - listitem [ref=e122]:
+                  - link "Features" [ref=e123] [cursor=pointer]:
+                    - /url: /features
+                - listitem [ref=e124]:
+                  - link "What’s New" [ref=e125] [cursor=pointer]:
+                    - /url: /whats-new
+                - listitem [ref=e126]:
+                  - link "Stories" [ref=e127] [cursor=pointer]:
+                    - /url: https://stories.strava.com/
+                - listitem [ref=e128]:
+                  - link "Routes" [ref=e129] [cursor=pointer]:
+                    - /url: /routes/hiking/usa
+                - listitem [ref=e130]:
+                  - link "About" [ref=e131] [cursor=pointer]:
+                    - /url: /about
+            - listitem [ref=e132]:
+              - list [ref=e133]:
+                - listitem [ref=e134]:
+                  - link "Subscription" [ref=e135] [cursor=pointer]:
+                    - /url: /subscribe?origin=logged_out_footer
+                - listitem [ref=e136]:
+                  - link "Family Plan" [ref=e137] [cursor=pointer]:
+                    - /url: /family?origin=logged_out_footer
+                - listitem [ref=e138]:
+                  - link "Subscription Partnerships" [ref=e139] [cursor=pointer]:
+                    - /url: https://business.strava.com/subscription-partnerships?utm_source=subsfooter&utm_medium=referral
+                - listitem [ref=e140]:
+                  - link "Student Discount" [ref=e141] [cursor=pointer]:
+                    - /url: /student?origin=global_footer
+                - listitem [ref=e142]:
+                  - link "Teacher, Military & Medical Discount (US Only)" [ref=e143] [cursor=pointer]:
+                    - /url: /subscribe#discount-plans?origin=global_footer
+                - listitem [ref=e144]:
+                  - link "Send a Gift" [ref=e145] [cursor=pointer]:
+                    - /url: /gift?origin=global_footer
+            - listitem [ref=e146]:
+              - list [ref=e147]:
+                - listitem [ref=e148]:
+                  - link "Support" [ref=e149] [cursor=pointer]:
+                    - /url: https://strava.zendesk.com/home
+                - listitem [ref=e150]:
+                  - link "Business" [ref=e151] [cursor=pointer]:
+                    - /url: https://business.strava.com/?utm_source=footer&utm_medium=referral
+                - listitem [ref=e152]:
+                  - link "Partner Center" [ref=e153] [cursor=pointer]:
+                    - /url: https://partners.strava.com
+                - listitem [ref=e154]:
+                  - link "Careers" [ref=e155] [cursor=pointer]:
+                    - /url: /careers
+                - listitem [ref=e156]:
+                  - link "Press" [ref=e157] [cursor=pointer]:
+                    - /url: https://press.strava.com
+            - listitem [ref=e158]:
+              - list [ref=e159]:
+                - listitem [ref=e160]:
+                  - link "Privacy" [ref=e161] [cursor=pointer]:
+                    - /url: /legal/privacy
+                - listitem [ref=e162]:
+                  - link "Cookie Policy" [ref=e163] [cursor=pointer]:
+                    - /url: /legal/cookie_policy
+                - listitem [ref=e164]:
+                  - button "Do Not Share My Personal Information" [ref=e165] [cursor=pointer]
+                - listitem [ref=e166]:
+                  - link "Terms" [ref=e167] [cursor=pointer]:
+                    - /url: /legal/terms
+                - listitem [ref=e168]:
+                  - link "Join for Free" [ref=e169] [cursor=pointer]:
+                    - /url: http://www.strava.com/register/free?element=global-footer&source=website_show
+  - iframe [ref=e170]:
+    
+  - alert [ref=e171]
